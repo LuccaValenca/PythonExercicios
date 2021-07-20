@@ -1,0 +1,15 @@
+#Crie um algoritmo que leia algo e mostre as informações da variavel
+txt = input("Digite algo: ")
+
+print("O tipo primitivo desse valor é {}".format(type(txt)))
+print("É alfabetico? {}".format(txt.isalpha()))
+print("É númerico? {}".format(txt.isnumeric()))
+print("É Alfanumérico? {}".format(txt.isalnum()))
+print("É ASCII? {}".format(txt.isascii()))
+print("É um digito? {}".format(txt.isdigit()))
+print("Is identifier? {}".format(txt.isidentifier()))
+print("Está em letras minúsculas? {}".format(txt.islower()))
+print("É printavel? {}".format(txt.isprintable()))
+print("Só possui espaços? {}".format(txt.isspace()))
+print("É um título? {}".format(txt.istitle()))
+print("Está em letras maiúsculas? {}".format(txt.isupper()))
